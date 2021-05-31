@@ -1,0 +1,25 @@
+package kucing;
+public class Kucing{
+ 
+ public String jenis = "Anggora";
+ public String warna = "Putih";
+ public int harga = 2000000;
+ public int tahunlahir = 2018;
+ public String namapenjual = "Fikri";
+ 
+
+ 
+ public void tampilkanInfoKucing( ){
+ System.out.println("Jenis Kucing   : " +jenis);
+ System.out.println("Warna          : " +warna); 
+ System.out.println("Harga          : " +harga);
+ System.out.println("Tahun Lahir    : " +tahunlahir);
+ System.out.println("Nama Penjual   : " +namapenjual);
+ }
+ public static void main ( String[ ] args ){
+
+ Kucing Kucing1 = new Kucing ( );
+ 
+ Kucing1.tampilkanInfoKucing( );
+ }
+ }
