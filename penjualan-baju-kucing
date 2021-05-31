@@ -1,0 +1,23 @@
+package baju;
+
+public class Baju{
+ 
+ public String jenis = "sweater";
+ public String warna = "Hitam";
+ public int harga = 200000;
+ public String brand = "catty";
+ 
+ 
+ public void tampilkanInfoBaju(){
+ System.out.println("Jenis Kemeja   : " +jenis);
+ System.out.println("Warna Bendera  : " +warna); 
+ System.out.println("Harga          : " +harga);
+ System.out.println("Brand          : " +harga);
+ }
+ public static void main ( String[ ] args ){
+
+ Baju Baju1 = new Baju ( );
+ 
+ Baju1.tampilkanInfoBaju();
+}
+}
