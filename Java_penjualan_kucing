@@ -6,6 +6,7 @@ public class Kucing{
  public int harga = 2000000;
  public int tahunlahir = 2018;
  public String namapenjual = "Fikri";
+ public String namapembeli = "Hana";
  
 
  
@@ -15,6 +16,7 @@ public class Kucing{
  System.out.println("Harga          : " +harga);
  System.out.println("Tahun Lahir    : " +tahunlahir);
  System.out.println("Nama Penjual   : " +namapenjual);
+ System.out.println("Nama Pembeli   : " +namapembeli); 
  }
  public static void main ( String[ ] args ){
 
