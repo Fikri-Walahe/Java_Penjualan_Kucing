@@ -7,7 +7,8 @@ public class Kucing{
  public int tahunlahir = 2018;
  public String namapenjual = "Fikri";
  public String namapembeli = "Hana";
-  public String jeniskelamin = "Perempuan";
+ public String jeniskelamin = "Perempuan";
+
 
  
  public void tampilkanInfoKucing( ){
@@ -18,6 +19,7 @@ public class Kucing{
  System.out.println("Nama Penjual   : " +namapenjual);
  System.out.println("Nama Pembeli   : " +namapembeli);
  System.out.println("Jenis Kelamin Pembeli         : " +jeniskelamin);
+
  }
  public static void main ( String[ ] args ){
 
